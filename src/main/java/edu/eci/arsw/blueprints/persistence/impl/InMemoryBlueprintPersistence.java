@@ -36,7 +36,7 @@ public class InMemoryBlueprintPersistence implements BlueprintsPersistence{
         Point[] pts4 = new Point[]{new Point(150, 200), new Point(145, 200), new Point(320, 270)};
 
         Blueprint bp1=new Blueprint("Fabian", "p1",pts1);
-        Blueprint bp2=new Blueprint("_authorname_", "p2",pts2);
+        Blueprint bp2=new Blueprint("Andrea", "p2",pts2);
         Blueprint bp3=new Blueprint("Fabian", "p3",pts3);
         Blueprint bp4=new Blueprint("Homero", "p4",pts4);
 
