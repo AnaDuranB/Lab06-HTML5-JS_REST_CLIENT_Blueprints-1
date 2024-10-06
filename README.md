@@ -48,6 +48,8 @@
     ```
 
 4. Cree, en el directorio anterior, la página index.html, sólo con lo básico: título, campo para la captura del autor, botón de 'Get blueprints', campo <div> donde se mostrará el nombre del autor seleccionado, [la tabla HTML](https://www.w3schools.com/html/html_tables.asp) donde se mostrará el listado de planos (con sólo los encabezados), y un campo <div> donde se mostrará el total de puntos de los planos del autor. Recuerde asociarle identificadores a dichos componentes para facilitar su búsqueda mediante selectores.
+   
+    ![image](https://github.com/user-attachments/assets/99f90e9b-7971-4ee4-8728-8b59c568afd0)
 
 5. En el elemento \<head\> de la página, agregue las referencia a las librerías de jQuery, Bootstrap y a la hoja de estilos de Bootstrap. 
     ```html
@@ -64,12 +66,13 @@
     ```
 
 
-5. Suba la aplicación (mvn spring-boot:run), y rectifique:
+6. Suba la aplicación (mvn spring-boot:run), y rectifique:
     1. Que la página sea accesible desde:
     ```
     http://localhost:8080/index.html
     ```
     2. Al abrir la consola de desarrollador del navegador, NO deben aparecer mensajes de error 404 (es decir, que las librerías de JavaScript se cargaron correctamente).
+    ![image](https://github.com/user-attachments/assets/d0b7aa76-6121-421a-8324-055f4a213e7f)
 
 ## Front-End - Lógica
 
