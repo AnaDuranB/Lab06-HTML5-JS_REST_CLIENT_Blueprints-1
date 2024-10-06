@@ -80,17 +80,27 @@
 
 2. Copie el módulo provisto (apimock.js) en la misma ruta del módulo antes creado. En éste agréguele más planos (con más puntos) a los autores 'quemados' en el código.
 
+    ![image](https://github.com/user-attachments/assets/ea2f94dd-fa31-4548-9cd6-f0da9a7ba44d)
+
+    ![image](https://github.com/user-attachments/assets/7e199f2f-2814-4e20-9495-bc5c6aa393e2)
+
+
+
 3. Agregue la importación de los dos nuevos módulos a la página HTML (después de las importaciones de las librerías de jQuery y Bootstrap):
     ```html
     <script src="js/apimock.js"></script>
     <script src="js/app.js"></script>
     ```
+    ![image](https://github.com/user-attachments/assets/ef0dc17f-dfc6-4cc8-9dc3-36e5116ce3dd)
+
 
 3. Haga que el módulo antes creado mantenga de forma privada:
     * El nombre del autor seleccionado.
     * El listado de nombre y tamaño de los planos del autor seleccionado. Es decir, una lista objetos, donde cada objeto tendrá dos propiedades: nombre de plano, y número de puntos del plano.
 
     Junto con una operación pública que permita cambiar el nombre del autor actualmente seleccionado.
+
+    ![image](https://github.com/user-attachments/assets/bd5d40bb-bc76-481c-811f-3c9e216eecf4)
 
 
 4. Agregue al módulo 'app.js' una operación pública que permita actualizar el listado de los planos, a partir del nombre de su autor (dado como parámetro). Para hacer esto, dicha operación debe invocar la operación 'getBlueprintsByAuthor' del módulo 'apimock' provisto, enviándole como _callback_ una función que:
@@ -103,7 +113,13 @@
 
 5. Asocie la operación antes creada (la de app.js) al evento 'on-click' del botón de consulta de la página.
 
+    ![image](https://github.com/user-attachments/assets/e0723c3d-472a-4cdb-b2cf-84d7c64ac89e)
+
+
 6. Verifique el funcionamiento de la aplicación. Inicie el servidor, abra la aplicación HTML5/JavaScript, y rectifique que al ingresar un usuario existente, se cargue el listado del mismo.
+
+    ![image](https://github.com/user-attachments/assets/3589b80e-af11-4a19-ab2e-5de51343bb52)
+
 
 ## Para la próxima semana
 
