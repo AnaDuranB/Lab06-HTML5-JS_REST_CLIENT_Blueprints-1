@@ -1,5 +1,7 @@
 ### Escuela Colombiana de Ingeniería
 ### Arquiecturas de Software
+### Desarrollado por Laura Natalia Rojas y Ana María Durán
+
 
 ## Construción de un cliente 'grueso' con un API REST, HTML5, Javascript y CSS3. Parte I.
 
